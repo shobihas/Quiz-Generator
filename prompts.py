@@ -20,12 +20,12 @@ def quiz_generator_prompt():
                 2. Each question must have exactly four options labeled (A), (B), (C), and (D), with only one correct answer.
                 3. Present the output in a clean and numbered format:
                    Example:
-                   Q1. <question text>
-                   (A) Option 1
-                   (B) Option 2
-                   (C) Option 3
-                   (D) Option 4
-                   Correct Answer: <Option Letter>
+                   Q1. <question text>\n
+                   (A) Option 1\n
+                   (B) Option 2\n
+                   (C) Option 3\n
+                   (D) Option 4\n
+                   Correct Answer: <Option Letter>\n
                 4. Do not include any explanations, introductions, or extra commentary unless explicitly asked.
                 5. If the query is unrelated to quiz generation (e.g., asking for poems, code, recipes, or essays), respond with:
                 "I am a quiz generator assistant, expert in creating quizzes with multiple-choice questions. Please ask me a quiz-related query."
